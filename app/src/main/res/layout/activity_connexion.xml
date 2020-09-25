@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/greyTransparence"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dogs_cats_rabbits_"
+        android:alpha="0.9"
+        android:scaleType="centerCrop"/>
+
+
+    <ImageView
+        android:id="@+id/logo_site"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:scaleType="center"
+        android:scaleX="1.4"
+        android:scaleY="1.5"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_site"
+        android:layout_alignBaseline="@+id/logo_site"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif-black"
+        android:scaleType="center"
+        android:text="Pets Friendly"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    >
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/black"
+
+                      >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/e_mail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:backgroundTint="@color/black"
+                            android:hint="Adresse e-mail"
+                            android:inputType="textEmailAddress"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            app:errorEnabled="true" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/black"
+                    app:endIconMode="password_toggle">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mot_de_passe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mot de passe"
+                        android:backgroundTint="@color/black"
+                        android:inputType="textPassword"
+                        app:endIconMode="password_toggle"
+                        app:errorEnabled="true" />
+
+                    <TextView
+                        android:id="@+id/error"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/black"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/connexion_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_corner_black_transparence_stroke"
+            android:text="Connexion"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "id_petsitter":1,
+        "id_proprietaire":1,
+        "nom": "Kamel",
+        "date" : "2020-08-11T00:05:00.000Z",
+        "url_photo": "src/main/res/drawable-xhdpi/kamel.jpg"
+    },
+    {
+
+        "id":1,
+        "id_petsitter":2,
+        "id_proprietaire":2,
+        "nom": "Michel",
+        "date" : "2020-08-11T00:05:00.000Z",
+        "url_photo": "src/main/res/drawable-xhdpi/michel.jpg"
+    }
+
+]
+
+
+
+

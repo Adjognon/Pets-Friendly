@@ -1,0 +1,72 @@
+[
+  {
+    "id" : "1",
+    "id_utlisateur": "1",
+    "name" : "Michel",
+    "url_photo" : "image",
+    "discussion" : "Bonjour, j'aimerais savoir si vous etes disponible pour demain?",
+    "date" : "2020-08-11T00:05:00.000Z",
+    "message_est_lu": "false"
+  },
+
+  {
+    "id" : "2",
+    "id_utlisateur": "2",
+    "name" : "Kamel",
+    "url_photo" : "src/main/res/drawable/rectangle_66.png",
+    "discussion" : "Biensur je suis disponible de 8h a 20h. Cela vous conviens?",
+    "date" : "2020-08-11T00:08:00.000Z",
+    "a_lu": "false"
+  },
+
+  {
+    "id" : "3",
+    "id_utlisateur": "1",
+    "name" : "Michel",
+    "url_photo" : "image",
+    "discussion" : "Oh! Parfait! je ferais appel a vous certainement dans la journer.",
+    "date" : "2020-08-11T00:10:00.000Z",
+    "message_est_lu": "false"
+  },
+
+  {
+    "id" : "4",
+    "id_utlisateur": "2",
+    "name" : "Kamel",
+    "url_photo" : "src/main/res/drawable/rectangle_66.png",
+    "discussion" : "Tres bien! j'attend alors votre reservation.",
+    "date" : "2020-08-11T00:12:00.000Z",
+    "a_lu": "false"
+
+  },
+
+  {
+    "id" : "5",
+    "id_utlisateur": "1",
+    "name" : "Michel",
+    "url_photo" : "image",
+    "discussion" : "A toute a l'heure bonne journee!",
+    "date" : "2020-08-11T00:15:00.000Z",
+    "message_est_lu": "false"
+  },
+
+  {
+    "id" : "6",
+    "id_utlisateur": "2",
+    "name" : "Kamel",
+    "url_photo" : "src/main/res/drawable/rectangle_66.png",
+    "discussion" : "Merci! bonne journee a vous aussi. N'hesitez pas si vous avez des questions.",
+    "date" : "2020-08-11T00:00:16.000Z",
+    "a_lu": "false"
+  },
+
+  {
+    "id" : "5",
+    "id_utlisateur": "1",
+    "name" : "Michel",
+    "url_photo" : "image",
+    "discussion" : "Êtes vous toujours disponible?",
+    "date" : "2020-08-11T00:15:00.000Z",
+    "message_est_lu": "false"
+  }
+]

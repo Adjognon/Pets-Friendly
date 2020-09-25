@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "id_facture":1,
+        "date_debut": "2020-08-15T00:00:00.000Z",
+        "date_fin": "2020-08-25T00:00:00.000Z",
+        "est_accepte": true,
+        "est_termine": false,
+        "est_lu_proprietaire": true,
+        "est_lu_petSitter": true,
+        "est_lu_disponible": true,
+        "encore_disponible":false,
+        "date_creation":"2020-08-25T00:00:00.000Z"
+    },
+    {
+        "id":2,
+        "id_facture":1,
+        "date_debut": "2020-08-25T00:00:00.000Z",
+        "date_fin": "2020-08-25T00:00:00.000Z",
+        "est_accepte": true,
+        "est_termine": false,
+        "est_lu_proprietaire": true,
+        "est_lu_petSitter": true,
+        "est_lu_disponible": true,
+        "encore_disponible":false,
+        "date_creation":"2020-08-25T00:00:00.000Z"
+    }
+
+]
+
+
+
+

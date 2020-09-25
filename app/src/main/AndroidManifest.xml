@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.petsitterisi">
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_pets_friendly"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ItemMessageEnvoyer"
+            tools:ignore="Instantiatable"></activity>
+        <activity android:name=".ItemMessageRecus"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".MessageList"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".PlaningsFragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".CardDemandePetSitter" />
+        <activity android:name=".AlertDialogContacterPetSitter" />
+        <activity android:name=".AlertDialogCommentaire" />
+        <activity
+            android:name=".ListePetSitter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".AlertDialogReservation" />
+        <activity android:name=".AjouterUnAnimal" />
+        <activity android:name=".CardPetSitter" />
+        <activity
+            android:name=".Filtres"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ProfilPetSitter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".BottomNavigationBar" />
+        <activity android:name=".Connexion" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA3wztHzrI-QNZK6r2HgurRHw4fWSqRqCU" />
+
+    </application>
+
+</manifest>

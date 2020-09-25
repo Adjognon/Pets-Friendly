@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MessageList"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/welcomeTextView"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top">
+
+
+            <Button
+                android:id="@+id/icone_retour"
+                android:background="@drawable/icone_retour"
+                android:clickable="true"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/image_message_profile_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/nom_utilsateur_message_recus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:layout_gravity="center"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cc000000"
+            android:gravity="bottom"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/icone_ajoute_photo_conversation"
+                android:layout_width="46dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/icone_ajouter_photo_discussion"
+                android:backgroundTint="#757575"
+                android:clickable="true"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/edittext_chatbox"
+                android:layout_width="350dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="4dp"
+                android:layout_weight="8"
+                android:background="@drawable/rounded_rectangle_edit_text_greyy"
+                android:hint="Message"
+                android:maxLines="6"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#A6A6A6"
+                android:textSize="19dp" />
+
+            <LinearLayout
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp"
+                android:background="@drawable/rounded_rectangle_discussion_blue">
+
+                <Button
+                    android:id="@+id/button_chatbox_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/icone_envoyer_message"
+                    android:backgroundTint="@color/white"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/message_container_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:background="#151515"
+        android:fillViewport="true">
+
+
+
+        <LinearLayout
+            android:id="@+id/container_message_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PetSitterISI</string>
+    <string name="title_activity_bottom_navigation_bar">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="suivant">Suivant</string>
+    <string name="contacter">Contacter</string>
+    <string name="commentaire">Commentaire</string>
+    <string name="accepter_reservation">Accepter</string>
+    <string name="refuser_reservation">Refuser</string>
+    <string name="terminer_reservation">Terminer</string>
+    <string name="reservation">Reservation</string>
+    <string name="voir_profil_pet_sitter">Profil</string>
+    <string name="annuler">Annuler</string>
+    <string name="connexion">Connexion</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="code_promotionel">Entrez votre code</string>
+    <string name="appliquer_code_promo">Appliquer</string>
+    <string name="reservation_final">Reserver</string>
+    <string name="profil">Profil</string>
+    <string-array name="nb_animaux_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="type_animal_array_string">
+        <item>Chien</item>
+        <item>Chat</item>
+    </string-array>
+
+    <string-array name="race_animal_array_string">
+        <item>RAce_1</item>
+        <item>Race_2</item>
+        <item>Race_3</item>
+    </string-array>
+
+</resources>

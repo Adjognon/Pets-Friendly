@@ -1,0 +1,38 @@
+{
+    "utilisateur": {
+        "id": 2,
+        "id_role": 1,
+        "nom": "arib",
+        "prenom": "nassim",
+        "age": 24,
+        "email": "nassim@gmail.com",
+        "mot_de_passe": "abc123...",
+        "sexe": "masculin",
+        "id_adresse": 2,
+        "telephone": "1237894560",
+        "secteur_action": null,
+        "url_photo": null,
+        "est_disponible": true,
+        "est_valide": false,
+        "est_active": false,
+        "id_activation": "a23a2d24-041e-4c49-aecf-a7158572174b",
+        "date_creation": "2020-08-11T00:00:00.000Z",
+        "remuneration_petsitter": null,
+        "num_carte_credit": null,
+        "date_expiration_carte_credit": null,
+        "code_securite_carte_credit": null
+    },
+    "adresse": {
+        "id": 2,
+        "numero_rue": 1856,
+        "nom_rue": "Parthenais",
+        "code_postal": "H2K G3S",
+        "ville": "Montreal",
+        "province": "Quebec",
+        "pays": "Canada",
+        "numero_appt": 2
+    }
+}
+
+
+

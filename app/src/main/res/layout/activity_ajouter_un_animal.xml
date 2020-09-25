@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterUnAnimal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garder chez vous"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quelques renseignements sur votre animal"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="390dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:checkable="true"
+            android:layout_marginTop="20dp"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Taille de l'animal"
+                        android:textSize="20dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/rounded_corner"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Petit"
+                                android:textColor="@color/white"
+                                android:gravity="center_vertical"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0 - 15kg"
+                                android:textColor="@color/white"
+                                android:gravity="center_vertical"
+                                />
+
+                        </LinearLayout>
+
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:thumbTint="@color/white"
+                            android:checked="true"
+                            app:trackTint="@color/green"
+                            android:textColor="@color/white"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/rounded_corner"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Moyen"
+                                android:textColor="@color/white"
+                                android:gravity="center_vertical"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="16 - 40kg"
+                                android:textColor="@color/white"
+                                android:gravity="center_vertical"
+                                />
+
+                        </LinearLayout>
+
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:thumbTint="@color/white"
+                            android:checked="false"
+                            app:trackTint="@color/green"
+                            android:textColor="@color/white"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/rounded_corner"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grand"
+                                android:textColor="@color/white"
+                                android:gravity="center_vertical"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="41 - 100kg"
+                                android:textColor="@color/white"
+                                android:gravity="center_vertical"
+                                />
+
+                        </LinearLayout>
+
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:thumbTint="@color/white"
+                            android:checked="false"
+                            app:trackTint="@color/green"
+                            android:textColor="@color/white"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#FF909090"
+                    android:layout_marginTop="36dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Type de l'animal"
+                        android:textSize="20dp"/>
+
+                    <Spinner
+                        android:id="@+id/type_animal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/redTransparenceBar"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Race de l'animal"
+                        android:textSize="20dp"/>
+
+                    <Spinner
+                        android:id="@+id/race_animal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/redTransparenceBar"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#FF909090"
+                    android:layout_marginTop="0dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <AutoCompleteTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="Nom de l'animal"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <AutoCompleteTextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:hint="Age"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sexe"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp">
+
+                            <LinearLayout
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                android:orientation="vertical"
+                                android:background="@drawable/rounded_corner"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Male"
+                                    android:textColor="@color/white"
+                                    android:gravity="center_vertical"
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <com.google.android.material.switchmaterial.SwitchMaterial
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:checked="false"
+                                android:textColor="@color/white"
+                                app:thumbTint="@color/green"
+                                app:trackTint="@color/green"
+                                android:layout_alignParentRight="true"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp">
+
+                            <LinearLayout
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                android:orientation="vertical"
+                                android:background="@drawable/rounded_corner"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Femelle"
+                                    android:textColor="@color/white"
+                                    android:gravity="center_vertical"
+                                    />
+
+                            </LinearLayout>
+
+
+                            <com.google.android.material.switchmaterial.SwitchMaterial
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                app:thumbTint="@color/white"
+                                android:checked="false"
+                                app:trackTint="@color/green"
+                                android:textColor="@color/white"
+                                android:layout_alignParentRight="true"/>
+
+                        </RelativeLayout>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ajouter une photo de l'animal"
+                            android:layout_marginTop="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_corner_green"
+                            android:textColor="@color/white"
+                            android:padding="10dp"/>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enregistrer"
+                            android:layout_marginTop="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_corner_green"
+                            android:textColor="@color/white"
+                            android:padding="10dp"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+</ScrollView>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

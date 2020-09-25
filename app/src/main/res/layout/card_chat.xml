@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2px"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/greyTransparence"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/car_chat_selectionner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginLeft="2dp"
+
+            android:elevation="10dp">
+
+            <ImageView
+                android:id="@+id/image_message_profile_liste_discussionr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="5"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/prenom_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Prenom"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/date_liste_discussion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:40"
+                android:textColor="#535353"
+                android:textSize="14dp"/>
+            <Button
+                android:id="@+id/icone_suivant"
+                android:background="@drawable/icone_suivant"
+                android:clickable="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-5dp"
+                android:backgroundTint="#BDBDBD"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

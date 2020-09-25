@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "id_petsitter":1,
+    "id_proprietaire":1
+  },
+  {
+    "id": 1,
+    "id_petsitter":2,
+    "id_proprietaire":1
+  }
+]
